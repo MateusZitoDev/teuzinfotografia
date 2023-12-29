@@ -107,18 +107,32 @@ a {
 .carousel {
     display: inline-block;
     overflow: visible;
+    flex: 1;
 }
 
 img {
+    display: none;
     width: 88%;
-    transition: transform 0.9s ease;
     border-radius: 30px;
+    margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-img:hover {
-    transform: scale(1.1);
+#imagem1 {
+    display: block;
+}
+
+button {
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 30px;
+    border: 10px;
+    width: 43%;
+    box-shadow: 0 0 10px #cdc9c9;
+    margin-bottom: 70px;
 }
 
 footer {
@@ -130,7 +144,7 @@ footer {
     width: 88%;
     margin: 0 auto;
     box-shadow: 0 0 10px #cdc9c9;
-    margin-top: 25px;
+    margin-top: 70px;
     margin-bottom: 10px;
     user-select: none;
 }
