@@ -93,6 +93,7 @@ img {
     height: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px #cdc9c9;
+    user-select: none;
 }
 
 .center {
@@ -104,6 +105,7 @@ img {
 h2 {
     text-align: center;
     color: #181111;
+    user-select: none;
 }
 
 main {
@@ -113,7 +115,10 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 85%;
+}
 
+p {
+    user-select: none;
 }
 
 footer {
