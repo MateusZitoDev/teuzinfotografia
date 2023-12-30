@@ -30,3 +30,11 @@ document.getElementById('imagem' + i);
         }  
     }
 }
+
+document.getElementById('redirecionarSobre').addEventListener('click', function() {
+    window.location.href = 'about.html';
+});
+
+document.getElementById('redirecionarRedesSociais').addEventListener('click', function() {
+    window.location.href = 'socialmedia.html';
+});

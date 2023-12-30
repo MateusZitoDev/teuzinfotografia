@@ -76,29 +76,6 @@ nav {
     text-align: center;
 }
 
-ul {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    border-radius: 30px;
-    width: 44%;
-    margin: 0 auto;
-    box-shadow: 0 0 10px #cdc9c9;
-    margin-top: 2px;
-    margin-bottom: 5px;
-    list-style-type: none;
-    user-select: none;
-    display: inline-flex;
-    justify-content: center;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    user-select: none;
-}
-
 .gallery {
     text-align: center;
     margin: 1em 0;
@@ -115,7 +92,7 @@ img {
     width: 88%;
     border-radius: 30px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
@@ -130,7 +107,7 @@ button {
     padding: 1em 0;
     border-radius: 30px;
     border: 10px;
-    width: 43%;
+    width: 44%;
     box-shadow: 0 0 10px #cdc9c9;
     margin-bottom: 70px;
 }

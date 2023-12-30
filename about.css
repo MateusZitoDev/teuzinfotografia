@@ -71,23 +71,21 @@ header {
     user-select: none;
 }
 
-ul {
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
+button {
     background-color: #333;
-    color: #fff;
+    color:#fff;
     text-align: center;
     padding: 1em 0;
     border-radius: 30px;
+    border: 10px;
     width: 44%;
-    margin: 0 auto;
     box-shadow: 0 0 10px #cdc9c9;
-    margin-top: 7px;
-    list-style-type: none;
-    user-select: none;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
+    margin-bottom: 70px;
 }
 
 img {
